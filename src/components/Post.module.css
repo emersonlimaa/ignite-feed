@@ -100,7 +100,7 @@
 }
 
 .commentForm:focus-within footer{
-  visibility: visibleprime;
+  visibility: visible;
   max-height: none;
 }
 

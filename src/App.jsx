@@ -19,14 +19,14 @@ const posts =[
         {type: 'paragraph', content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, qui voluptatibus voluptatum doloribus aliquid unde, possimus molestias.'},
         {type: 'link', content: 'emersonlimaa.vercel.app'},
     ],
-    publishedAt: new Date('2023-05-05 20:00:00'),
+    publishedAt: new Date('2023-04-04 20:20:00'),
   },
   {
     id: 2,
     author:{
       avatarUrl: 'https:github.com//emersonlimaa.png',
       name: 'Emerson Lima 2',
-      role: 'Frontend Developer'
+      role: 'Backend Developer'
     },
     content: [
         {type: 'paragraph', content: 'Fala Galeraaa!'},
@@ -34,9 +34,10 @@ const posts =[
         {type: 'paragraph', content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione, qui voluptatibus voluptatum doloribus aliquid unde, possimus molestias.'},
         {type: 'link', content: 'emersonlimaa.vercel.app'},
     ],
-    publishedAt: new Date('2022-02-02 20:00:00'),
+    publishedAt: new Date('2023-04-04 20:20:00'),
   }
 ]
+console.log(posts.publishedAt)
 
 function App() {
   return (
@@ -49,6 +50,8 @@ function App() {
           return (
           <Post 
             author={post.author}
+            publishedAt={post.publishedAt}
+            content={post.content}
           />
           )
         })}

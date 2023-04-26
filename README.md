@@ -1,3 +1,0 @@
-# ignite-feed
-
-in development

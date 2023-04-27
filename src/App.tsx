@@ -37,7 +37,6 @@ const posts =[
     publishedAt: new Date('2023-04-04 20:20:00'),
   }
 ]
-console.log(posts.publishedAt)
 
 function App() {
   return (
@@ -49,6 +48,7 @@ function App() {
         {posts.map(post => {
           return (
           <Post 
+            key={post.id}
             author={post.author}
             publishedAt={post.publishedAt}
             content={post.content}

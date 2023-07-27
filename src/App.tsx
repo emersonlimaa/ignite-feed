@@ -11,7 +11,7 @@ const posts: PostType[] =[
   {
     id: 1,
     author:{
-      avatarUrl: 'https:github.com//emersonlimaa.png',
+      avatarUrl: 'https://github.com//emersonlimaa.png',
       name: 'Emerson Lima',
       role: 'Frontend Developer'
     },
@@ -26,7 +26,7 @@ const posts: PostType[] =[
   {
     id: 2,
     author:{
-      avatarUrl: 'https:github.com//emersonlimaa.png',
+      avatarUrl: 'https://github.com//emersonlimaa.png',
       name: 'Emerson Lima 2',
       role: 'Backend Developer'
     },
